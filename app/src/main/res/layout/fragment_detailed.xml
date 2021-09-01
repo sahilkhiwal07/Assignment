@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".ui.base.Detailed">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/rashi"
+        android:id="@+id/images"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_names"
+        android:hint="@string/h_name"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_positions"
+        android:hint="@string/h_position"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
