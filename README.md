@@ -1,5 +1,4 @@
-# Assignment
-Rostar Assignment
+# Roster Assignment
 
 This project having features given below :
 
